@@ -1,0 +1,1373 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&display=swap');
+@-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(254, 251, 241);
+    overflow-x: hidden;
+}
+
+/*HOME*/
+.tracking-in-expand{-webkit-animation:tracking-in-expand 1s ease-in both;animation:tracking-in-expand 1s ease-in both}
+
+header img{
+    width: 100px;
+}
+
+header .container-fluid{
+    margin: 20px;
+}
+
+.navbar-nav a {
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(17, 0, 121);
+    text-decoration: none;
+    padding: 0px 30px 0px 30px;
+}
+.navbar-nav a:hover {
+    text-decoration: underline;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 200px 0px 200px;
+}
+
+.index-title{
+    font-family: 'Barlow', sans-serif;
+    font-size: 59px;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: left;
+    padding-right: 150px;
+    color: rgb(17, 0, 121);
+}
+
+.hero img {
+    width: 500px;
+}
+.highlighted-text {
+    font-weight: 800;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 207, 36);
+    background-image: url(../img/dots-2.svg);
+    background-repeat: no-repeat;
+    background-position-x: -170px;
+    padding-bottom: 50px;
+}
+.intro p {
+    margin: auto;
+    width: 60%;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align:center;
+    padding: 65px 0px 35px 0px;
+    color: rgb(17, 0, 121);
+}
+.button-more-info {
+    color: rgb(17, 0, 121);
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.data-box {
+    width: 90%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+}
+
+.statistics-data {
+    background-color: rgb(144, 235, 243);
+    font-family: 'Barlow', sans-serif;
+    color: rgb(17, 0, 121);
+    text-align:center;
+    padding-bottom: 60px;
+    padding-top: 25px;
+}
+
+.statistics-paragraph{
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.subtitle {
+    font-size: 45px;
+    padding: 30px;    
+}
+
+.numbers {
+    font-size: 59px;
+    font-weight: 700;   
+}
+
+.paragraph {
+    margin: 0; 
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.featured-news {
+    position: relative;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(17, 0, 121);
+    text-align: center;
+    padding-top: 60px;
+    background-image: url(../img/dots-3.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: -315px;
+    background-position-y: -50px;    
+}
+
+.yellow-dots {
+    width: 150px;
+    position: absolute;
+    right: 110px;
+    top: 130px;
+}
+
+.box-news {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+
+.news {
+    margin: 0px 20px 0px 20px;
+    text-align: left;    
+}
+
+.news img {
+    width: 100%;
+}
+
+.news h3 {
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 25px;
+}
+
+.news-title {
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.photo {
+    position: relative;
+}
+
+.date {
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgb(255, 207, 36);
+    padding: 5px 10px 5px 10px;
+    width: fit-content;
+}
+
+.line {
+    background-color: rgb(17, 0, 121);
+    height: 1px;
+    width: 80%;
+    margin: auto; 
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.featured-iniciatives{
+    font-family: 'Barlow', sans-serif;
+    color: rgb(17, 0, 121);
+    text-align: center;
+    margin-bottom: 50px ;
+}
+
+.logos {
+    display: inline-block;
+}
+
+.logos img {
+    margin: 20px;
+}
+
+.newsletter {
+    background-color: rgb(255, 128, 11);
+    text-align: center;
+    width: 100%;
+    padding: 70px;
+}
+
+.form {
+    margin: auto;
+    width: 40%;
+}
+
+.newsletter h4 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.form-control {
+    font-family: 'Barlow', sans-serif;
+    background-color: rgb(255, 128, 11);
+    color: white;
+    border-radius: 0;
+    border: white solid 1px;
+    transition: none;
+    box-shadow: none;
+}
+.form-control:focus {
+    background: transparent;
+    box-shadow: none;
+    border: white solid 1px;
+    color: white;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+.btn-primary {
+    font-family: 'Barlow', sans-serif;
+    background-color: rgb(255, 128, 11);
+    border-color: white;
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+    color: rgb(255, 128, 11);
+    background-color: white;
+    border-color: white;
+    box-shadow: none;
+}
+
+.btn-primary:focus{
+    color: rgb(255, 128, 11);
+    background-color: white;
+    border-color: white;
+    box-shadow: none;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(17, 0, 121);
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    padding: 50px 0px 50px 0px;  
+}
+
+.contact-info {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px 0px 20px 0px;
+}
+
+.social-media-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media-icons svg {
+    width: 35px;
+    margin: 5px 15px 0px 0px;
+}
+.social-media-icons svg:hover {
+    fill:  rgb(255, 207, 36);
+}
+
+footer h5 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contact-us, .suport-us, .find-us {
+    padding: 0px 40px 0px 40px;
+}
+
+.contact-us {
+    width: 25%;
+}
+.suport-us {
+    width: 40%;
+}
+
+.button-donate {
+    color: white;
+    font-weight: 600;
+}
+
+.button-donate:hover {
+    color:  rgb(255, 207, 36);
+}
+
+
+/*OUT WORK*/
+
+.our-work-intro {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro-text {
+    margin: auto;
+    width: 45%;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align:center;
+    padding: 30px 0px 30px 0px;
+    color: rgb(17, 0, 121);
+}
+
+.main-title, .main-title-resources{
+    font-family: 'Barlow', sans-serif;
+    font-size: 59px;
+    font-weight: 400;
+    color: rgb(17, 0, 121);
+}
+
+.our-work-intro img {
+    width: 50px;
+}
+
+.area-of-work{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(17, 0, 121);
+}
+
+.area-of-work img{
+    width: 50%;
+}
+
+.area-1, .area-2, .area-3, .area-4 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.area-1, .area-4 {
+    background-color:  rgb(255, 207, 36);    
+}
+.area-2 {
+    background-color: rgb(255, 128, 11);       
+}
+.area-3{
+    background-color: rgb(144, 235, 243);
+}
+
+.info {
+    width: 50%;
+    padding: 30px 0px 30px 0px;
+}
+.info h2{
+    font-size: 59px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.info h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.info p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+/*ABOUT*/
+
+.about-intro {
+    width: 100%;
+    height: 40vh;
+    margin: auto;
+    background-color:  rgb(255, 207, 36); 
+    text-align: left;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(17, 0, 121);
+    background-image: url(../img/dots-2.svg);
+    background-repeat: no-repeat;
+    background-position-x: -140px;
+    background-position-y: 130px;    
+}
+
+.txt-intro {
+    margin: auto;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-intro p{
+    margin: 0;
+    width: 45%;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about-info{
+    width: 70%;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(17, 0, 121);
+}
+
+.about-info img {
+    width: 60px;
+}
+
+.column-1{
+    width: 40%;
+    padding-right: 55px;
+}
+
+.column-2{
+    width: 50%;
+    padding-left: 60px;
+}
+
+.about-info p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 40px;   
+}
+
+.column-2 p{
+    line-height: 27px;
+}
+
+.our-people{
+    font-family: 'Barlow', sans-serif;
+    color: rgb(17, 0, 121);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.people {
+    margin: auto;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+}
+
+.people img {
+    width: 70%;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.person {
+    margin-bottom: 40px;
+}
+
+.person h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.person h5 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.see-more-button {
+    margin: auto;
+    display: inline-block;
+    width: 100%;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(17, 0, 121);
+    text-decoration: underline;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+/*resources*/
+
+.resources-intro{
+    height: 20vh;
+    background-color: rgb(144, 235, 243);
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title-resources{
+    font-family: 'Barlow', sans-serif;
+    font-size: 59px;
+    font-weight: 400;
+    color: rgb(17, 0, 121);
+}
+
+.carousel-resources {
+    width:80%;
+    margin: auto;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(17, 0, 121);
+    margin-bottom: 50px;
+}
+
+.carousel-control-next-icon{
+    background-image:url(../img/arrow-next.svg)
+}
+
+.carousel-control-prev-icon{
+    background-image:url(../img/arrow-prev.svg)
+}
+    
+.card{
+    margin: auto;
+    background:none;
+    border: 0;
+}    
+
+.card-body{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0px 40px 0px 0px;
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.card-text{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.card-body h6 {
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.col-md-4 img {
+    box-shadow: -7px 13px 21px -12px rgba(0,0,0,0.32);
+    -webkit-box-shadow: -7px 13px 21px -12px rgba(0,0,0,0.32);
+    -moz-box-shadow: -7px 13px 21px -12px rgba(0,0,0,0.32);
+}
+
+.background-dots {
+    width: 500px;
+    position: absolute;
+    top: 30vh;
+    right: -35vh;
+}
+
+.orange-dots {
+    width: 150px;
+    position: absolute;
+    top: 60vh;
+    left: -5vh;
+}
+
+
+/*DONATE*/
+
+.donation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(17, 0, 121);
+}
+.ways-to-give {
+    width: 50%;
+    background-color:  rgb(144, 235, 243);
+    padding: 130px;
+}
+
+.ways-to-give a {
+    font-weight: 600;
+    color: rgb(17, 0, 121);
+}
+
+.donate-box {
+    display: flex;
+    width: 50%;
+    background-color:  rgb(255, 207, 36);
+}
+
+.donation h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.donation p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.donate-box h6, .donate-box p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.donate-box-container {
+    margin: auto;
+    width: 60%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.btn-group{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.btn-donate {
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(17, 0, 121);
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-donate:hover{
+    font-weight: 600;
+    color:white;
+    background-color: rgb(17, 0, 121);
+}
+
+.btn-outline-primary {
+    color: rgb(17, 0, 121);
+    border-color: rgb(17, 0, 121);
+    margin: 0px 5px;
+}
+
+.btn-outline-primary:hover{
+    background-color: rgb(17, 0, 121);
+    border-color: rgb(17, 0, 121);
+} 
+
+.btn-check:checked+.btn-outline-primary {
+    background-color: rgb(17, 0, 121);
+    border-color: rgb(17, 0, 121);
+}
+
+.check {
+    margin: 10px 0px 10px 0px;
+}
+
+.btn-group>.btn:nth-child(n+3) {
+    border-radius: 5px;
+}
+
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle){
+    border-radius: 5px;
+}
+
+/*CONTACT US*/
+
+.location{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(17, 0, 121);
+    padding: 50px;
+}
+
+.info-location {
+    width: 100%;
+    padding-right: 50px;
+    font-size: 15px;
+}
+
+.info-location h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.location img {
+    max-width: 60%; 
+}
+
+.yellow-line {
+    margin: auto;
+    width: 80%;
+    height: 1px;
+    background-color:  rgb(255, 207, 36);
+}
+
+.affiliates {
+    margin-top: 50px;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(17, 0, 121);
+}
+
+.affiliates-info {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.affiliates h2 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.affiliates-info p {
+    padding: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.intro-affiliates {
+    margin: auto;
+    width: 30%;
+    text-align: center;
+}
+
+.intro-affiliates p{
+    font-size: 15px;
+}
+
+/*MEDIAQUERYS*/
+
+@media screen and (max-width: 1200px) { 
+    .index-title {
+        padding-right: 50px;
+    }
+
+    .news h3 {
+        font-size: 17px;
+    }
+    .carousel-resources{
+        width: 90%;
+    }
+    .donate-box-container {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1024px) { 
+    .index-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .hero img {
+        width: 400px;
+    }
+    .news {
+        margin: 0px 10px 0px 10px;
+    }
+   
+    .yellow-dots{
+        right: 55px;
+        top:120px
+    }
+    .numbers{
+        font-size: 50px;
+    }
+
+    .intro-text{
+        width: 70%;
+        font-size: 17px;
+    }
+
+    .info{
+        width: 60%;
+    }
+    .info h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .form{
+        width: 70%;
+    }
+    .main-title{
+        font-size: 50px;
+    }
+
+    .people {
+        width: 70%;
+    }
+
+    .column-1{
+        width: 45%;
+    }
+
+    .column-2 {
+        width: 60%;
+        margin-left: 30px;
+    }
+    .about-intro p{
+        font-size: 17px;
+    }
+    .card-title{
+        font-size: 20px;
+    }
+    .card-body h6{
+        font-size: 12px;
+    }
+    .main-title-resources{
+        font-size: 50px;
+    }
+    .background-dots{
+        width: 450px;
+        right: -30vh;
+    }
+    .orange-dots{
+        left: -10vh;
+    }
+    .donate-box-container {
+        width: 75%;
+    }
+    .ways-to-give {
+        padding: 90px;
+    }
+    .intro-affiliates{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .intro{
+        background-position-x:-200px;
+    }
+
+    .data-box{
+        width: 75%;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    .statistics-paragraph{
+        padding: 0px 30px 30px 30px;
+    }
+
+    .contact-info{
+        width: 90%;
+    }
+    .card-body{
+        width: 100%;
+    }
+    .card-title{
+        padding: 0px;
+    }
+    .ways-to-give{
+        padding: 70px;
+    }
+    .donate-box-container{
+        width: 80%;
+    }
+    .intro-affiliates{
+        width: 45%;
+    }
+    .location{
+        padding: 0px 0px 50px 0px;
+    }
+
+
+/*NAVBAR COLLAPSE*/
+
+.navbar-light .navbar-toggler {
+    border: 0px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar-collapse{
+    padding: 20px;
+    background-color: rgb(17, 0, 121);
+    margin-bottom: 30px;
+}
+.navbar-nav a {
+    padding: 10px;
+    color: white;
+}
+header .container-fluid{
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand{
+    margin: 1rem;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+    .hero{
+        margin: 0px;
+        flex-direction: column;
+    }
+    .index-title{
+        padding-right: 0px;
+    }
+
+    .intro p{
+        font-size: 17px;
+    }
+
+    .news{
+        margin: 0px 0px 20px 0px;
+    }
+
+    .news-title{
+        justify-content: start;
+    }
+
+    .news h3{
+        margin-bottom: 20px;
+    }
+
+    .box-news{
+        width: 60%;
+        flex-direction: column;
+    }
+    .featured-news{
+        padding-top: 25px;
+        background-size: 550px;
+    }
+
+    .contact-info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-us, .suport-us, .find-us{
+        width: 80%;
+        text-align: center;
+        padding-bottom: 35px;
+    }
+    .social-media-icons{
+        justify-content: center;
+    }
+
+    .area-of-work {
+        flex-direction: unset;
+    }
+
+    .column{
+        flex-direction: column;
+    }
+
+    .column-reverse{
+        flex-direction: column-reverse;
+    }
+
+    .area-of-work img {
+        width: 100%;
+    }
+
+    .area-1, .area-2, .area-3, .area-4{
+        width: 100%;
+    }
+
+    .info {
+        text-align: center;
+        padding: 50px 0px 50px 0px;
+    }
+    .intro-text{
+        width: 70%;
+    }
+
+    .about-info{
+        flex-direction: column;
+        text-align: center;
+    }
+    .column-1{
+        width: 100%;
+        padding: 0px;
+    }
+    .column-2{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .txt-intro{
+        width: 80%;
+    }
+    .people{
+        width: 80%;
+    }
+    .carousel-resources{
+        width: 80%;
+    }
+    .img-fluid{
+        margin-top: 30px;
+    }
+    .card-title{
+        padding-bottom: 20px;
+    }
+    .card-text{
+        padding-bottom: 20px;
+    }
+    .card-body{
+        padding: 0px;
+    }
+    .donation{
+        flex-direction: column;
+    }
+    .ways-to-give{
+        width: 100%;
+        padding: 50px 150px 50px 150px;
+        text-align: center;
+    }
+    .donate-box{
+        width: 100%;
+        padding: 50px 0px 50px 0px;
+    }
+    .donate-box-container{
+        width: 60%;
+    }
+
+    .location{
+        flex-direction: column;
+    }
+
+    .info-location{
+        text-align: center;
+        padding: 0px;
+    }
+    .location img{
+        max-width: 80%;
+        margin-top: 40px;
+    }
+    .intro-affiliates{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .intro {
+        background-size: 450px;
+        background-position: -300px;
+    }
+
+    .yellow-dots{
+        top:120px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .line{
+        width: 70%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .subtitle{
+        font-size: 40px;
+    }
+    .numbers{
+        font-size: 40px;
+    }
+
+    .main-title{
+        font-size: 40px;
+    }
+
+    .about-intro{
+        height: auto;
+        background-size: 350px;
+        background-position-x: -200px;
+        background-position-y: 200px;
+    }
+
+    .about-info{
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    .txt-intro{
+        width: 100%;
+        padding: 50px;
+        text-align: center;
+        flex-direction: column;
+    }
+    .about-intro p{
+        width: 85%;
+        margin-top: 20px;
+    }
+    .people {
+        width: 75%;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .main-title-resources{
+        font-size: 40px;
+    }
+    .ways-to-give{
+        padding: 50px 100px 50px 100px;
+    }
+    .donate-box{
+        padding: 50px 0px 50px 0px;
+    }
+    .donate-box-container{
+        width: 80%;
+    }
+    .affiliates-info p{
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .hero img {
+        width: 80%;
+    }
+
+    .data-box{
+        grid-template-columns: 1fr;
+    }
+
+    .yellow-dots{
+        width: 100px;
+        right: 40px;
+    }
+
+    .featured-news{
+        background-size: 500px;
+    }
+
+    .box-news{
+        width: 70%;
+    }
+
+    .form{
+        width: 100%;
+    }
+    .logos{
+        margin: auto;
+        width: 50%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .row {
+        display: block;
+    }
+    .btn-primary{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .yellow-dots{
+        display: none;
+    }
+    .info {
+        width: 65%;
+    }
+    .background-dots{
+        width: 400px;
+        right: -30vh;
+    }
+
+    .our-work-intro .main-title{
+        width: 75%;
+        margin: auto;    
+    }
+    .form-check {
+        font-size: 14px;
+    }
+    .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+        font-size: 14px;
+    }
+    .btn-group>.btn:nth-child(n+3) {
+        font-size: 14px;
+    }
+
+    .ways-to-give{
+        padding: 50px;
+    }
+    .location img {
+        max-width: 100%;
+    }
+    .affiliates-info{
+        flex-direction: column;
+    }
+    .featured-iniciatives .subtitle{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+
+    .index-title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .intro{
+        background-size: 400px;
+    }
+
+    .intro p {
+        font-size: 15px;
+    }
+
+    .news h3{
+        font-size: 15px;
+        padding-top: 15px;
+    }
+    .news-title{
+        height: 100px;
+    }
+   
+    .newsletter{
+        padding: 50px;
+    }
+    .newsletter h4{
+        font-size: 20px;
+    }
+    
+    .social-media-icons{
+        margin: 5px;
+    }
+
+    .social-media-icons svg {
+        width: 30px;
+    }
+    footer h5 {
+        font-size: 15px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .intro-text{
+        font-size: 15px;
+    }
+
+    .info {
+        width: 75%;
+    }
+
+    .info h2 {
+        font-size: 35px;
+    }
+
+    .info h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .about-intro{
+        background-size: 300px;
+        background-position-y: 265px;
+    }
+    .about-info p{
+        font-size: 14px;
+    }
+    .people {
+        grid-template-columns: 1fr;
+    }
+    .people img {
+        width: 60%;
+    }
+    .background-dots{
+        width: 300px;
+        right: -20vh;
+    }
+    .card-title{
+        font-size: 18px;
+    }
+    .card-text{
+        font-size: 13px;
+    }
+    .carousel-control-prev, .carousel-control-next{
+        width: 8%;
+    }
+    
+    .background-dots{
+        width: 350px;
+        right: -25vh;
+    }
+
+    .main-title{
+        font-size: 35px;
+    }
+
+    .intro-text{
+        width: 75%;
+    }
+
+    .donate-box-container{
+        padding: 30px;
+    }
+
+}
