@@ -1063,7 +1063,7 @@ header .container-fluid{
         width: 80%;
     }
     .carousel-resources{
-        width: 80%;
+        width: 90%;
     }
     .img-fluid{
         margin-top: 30px;
@@ -1113,7 +1113,7 @@ header .container-fluid{
 @media screen and (max-width: 600px) {
     .intro {
         background-size: 450px;
-        background-position: -300px;
+        background-position: -325px;
     }
 
     .yellow-dots{
@@ -1262,6 +1262,17 @@ header .container-fluid{
         margin: auto;
         text-align: center;
     }
+    .about-intro{
+        background-position-x: -225px;
+        background-position-y: 225px;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .donate-box-container {
+        padding: 25px;
+    }
 
 }
 
@@ -1349,9 +1360,7 @@ header .container-fluid{
     .card-text{
         font-size: 13px;
     }
-    .carousel-control-prev, .carousel-control-next{
-        width: 8%;
-    }
+    
     
     .background-dots{
         width: 350px;
