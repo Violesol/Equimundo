@@ -19,7 +19,7 @@ HERRAMIENTAS Y LENGUAJES UTILIZADOS:
 › https://animate.style/
 
 
-![](./img/boceto-figma.png)
+![](./img/Sitio-equimundo-mockup.jpg)
 
 VER EN:
 https://equimundo.netlify.app/
